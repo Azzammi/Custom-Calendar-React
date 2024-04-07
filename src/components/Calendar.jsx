@@ -65,7 +65,7 @@ const Calendar = () => {
 	};
 
   const getAllDays = () => {
-		let currentDate = currentMonth.startOf("month").weekday(0);
+		let currentDate = now;
 		const nextMonth = currentMonth.add(1, "month").month();
 
 		let allDates = [];
